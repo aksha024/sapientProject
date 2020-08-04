@@ -1,0 +1,27 @@
+.filterPanel {
+  margin: 10px;
+  flex: 0.2;
+}
+
+.btn-green {
+  margin: 20px 10px 20px 10px;
+  position: relative;
+  /* display: inline-flexbox; */
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: black;
+  background: lightgreen;
+  transition: 0.4s;
+  display: flexbox;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  cursor: pointer;
+  height: 30px;
+  perspective: 1000px;
+}
+
+.btn-green:hover {
+  background: green;
+  color: black;
+}
